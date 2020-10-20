@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Barlow', sans-serif;
+
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.aside {
+    background: linear-gradient(140deg, #af8fcc 0%, #735FCD 74%);
+
+    width: 35vw;
+    border-radius: 8px 0 0 8px;
+}
+
+.aside .info-card {
+    margin: 7rem;
+    font-size: 1.5rem;
+    color: #F4F3FB;
+}
+
+.info-card .info {
+    margin-bottom: 4.5rem;
+}
+
+.info i {
+    margin-bottom: 1.5rem;
+    background-color: #BFA1EA;
+
+    font-size: 1.8rem;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.info h2 {
+    margin-bottom: 1rem;
+}
+
+.info p {
+    max-width: 23rem;
+    line-height: 1.3;
+}
+
+form {
+    width: 75vw;
+}
+
+fieldset {
+    height: 100%;
+    max-width: 70%;
+    padding: 8rem 10rem 5rem;
+    border: none;
+}
+
+fieldset h1 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+    color: rgb(39, 39, 39);
+
+    padding: 3rem 0;
+}
+
+fieldset .input-block {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+fieldset .input-block.checkbox { 
+    flex-direction: row;
+    align-items: center;
+
+    position: relative;
+
+}
+
+fieldset .input-block.checkbox input {
+    margin-right: 6px;
+
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+
+    padding: 1.6rem;
+}
+
+fieldset .input-block.checkbox label{
+    color: #84899C;
+    margin-bottom: 0;
+}
+
+fieldset .input-block.checkbox i{
+    display: none;
+}
+
+fieldset .input-block.checked input {
+    background: linear-gradient(150deg, #c9b6cc8e 0%, #9c92c7af 74%);
+    border: 1px solid #aca6c9;
+}
+
+fieldset .input-block.checked i{
+    display: unset;
+    position: absolute;
+    left: 6px;
+    color: #F4F3FB;
+
+    font-size: 2.4rem;
+
+    cursor: pointer;
+}
+
+fieldset .input-block label {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(39, 39, 39);
+
+    line-height: 1.5;
+
+    margin-bottom: 8px;
+}
+
+fieldset .input-block input {
+    padding: 2rem;
+
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+
+    color: #897acc;
+
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    -webkit-text-fill-color: #897acc;
+}
+
+fieldset .input-block.password i {
+    position: absolute;
+    right: 1.2rem;
+    top: 5rem;
+
+    font-size: 2.4rem;
+
+    color: #aca6c9;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #84899C;
+    
+    font-size: 1.6rem;
+}
+
+fieldset .input-block input:focus {
+    outline-color: #aca6c9c0;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background-color: #735FCD;
+
+    font-size: 1.8rem;
+    color: white;
+    width: 100%;
+
+    padding: 2rem;
+    text-align: center;
+
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(103, 80, 206);
+}
+

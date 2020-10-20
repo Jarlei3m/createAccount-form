@@ -1,0 +1,118 @@
+/* responsive */
+
+@media(max-width:1024px) {
+    fieldset {
+        max-width: 80%;
+        padding: 8rem 8rem 4rem;
+    }
+}
+
+@media(max-width:870px) {
+    :root {
+        font-size: 58%;
+    }
+
+    fieldset {
+        max-width: 85%;
+        padding: 6rem 5rem 4rem;
+    }
+}
+
+@media(max-width:768px) {
+    :root {
+        font-size: 55%;
+    }
+
+    .aside .info-card {
+        margin: 5rem;
+    }
+}
+
+@media(max-width:610px) {
+    :root {
+        font-size: 53%;
+    }
+
+    fieldset {
+        max-width: 80%;
+        padding: 6rem 3rem 4rem;
+    }
+
+    fieldset .input-block.password i {
+        top: 5.4rem;
+    }
+}
+
+@media(max-width:560px) {
+    :root {
+        font-size: 50%;
+    }
+
+    .aside .info-card {
+        margin: 3rem;
+    }
+
+    fieldset {
+        max-width: 80%;
+        padding: 3rem 3rem 4rem;
+    }
+
+    fieldset h1{
+        text-align: center;
+    }
+}
+
+@media(max-width:425px) {
+    :root {
+        font-size: 48%;
+    }
+
+    fieldset {
+        max-width: 80%;
+        padding: 6rem 2rem 1rem;
+    }
+
+    fieldset .input-block {
+        margin-bottom: 5rem;
+    }
+    
+    .aside .info-card {
+        text-align: center;
+        margin: 6rem 2rem;
+    }
+
+    .info-card .info {
+        margin-bottom: 7.5rem;
+    }
+
+    fieldset .input-block input {
+        padding: 1.6rem;
+    }
+
+    fieldset .input-block.password i {
+        top: 5rem;
+    }
+
+    fieldset .input-block.checked i {
+        left: 5px;
+    }
+}
+
+@media(max-width:374px) {
+    :root {
+        font-size: 45%;
+    }
+
+    fieldset {
+        max-width: 75%;
+        padding: 6rem 1rem 1rem;
+    }
+
+    fieldset .input-block input {
+        padding: 1.5rem;
+    }
+
+    fieldset .input-block.password input::placeholder{
+        color: transparent;
+    }
+}
